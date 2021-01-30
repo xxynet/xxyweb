@@ -1,3 +1,8 @@
+body
+{
+    background-color: rgb(245,245,245);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -7,6 +12,10 @@ ul {
     position: fixed;
     width: 100%;
     top: 0px;
+    left: 0;
+
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 li
@@ -21,4 +30,60 @@ li a
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover
+{
+    background-color:  rgb(73, 68, 68);
+}
+
+#menu
+{
+    float: right;
+    margin-right: 100px;
+}
+
+#title
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#program
+{
+    text-align: center;
+    display: block;
+}
+
+#ProShow
+{
+    border : 1.5px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: rgb(105, 104, 104);
+}
+
+#ProShow:hover
+{
+    border: 1.5px solid rgb(32, 32, 32);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#ProNaame
+{
+    color: black;
+    font-size: 2px;
+}
+
+#ProType
+{
+    color: rgb(105, 104, 104);
 }
