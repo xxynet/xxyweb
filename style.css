@@ -73,6 +73,8 @@ li a:hover
 #ProShow:hover
 {
     border: 1.5px solid rgb(32, 32, 32);
+    /* rgb(3, 104, 236); */
+
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -81,9 +83,13 @@ li a:hover
 {
     color: black;
     font-size: 2px;
+    /* margin-bottom: 1px; */
 }
 
 #ProType
 {
     color: rgb(105, 104, 104);
+    /* line-height: 5px; */
+    font-size: 11px;
+    padding: 1px;
 }
