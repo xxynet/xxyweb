@@ -116,6 +116,14 @@ li a:hover
 {
     text-align: center;
     width: 100%;
+    /* background-color: #2A2A2A;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px; */
 }
 
 #subtitle
