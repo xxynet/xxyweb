@@ -3,6 +3,9 @@ body
     background-color: rgb(245,245,245);
 }
 
+
+
+/* 菜单栏 */
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,12 +46,17 @@ li a:hover
     margin-right: 100px;
 }
 
+
+
 #title
 {
     font-size: 30px;
     font-weight: 400;
 }
 
+
+
+/* 我的项目 */
 #program
 {
     text-align: center;
@@ -92,4 +100,55 @@ li a:hover
     /* line-height: 5px; */
     font-size: 11px;
     padding: 1px;
+}
+
+
+/* 关于我 */
+#about
+{
+    text-align: center;
+    display: block;
+}
+
+
+/* 页脚 */
+#footer
+{
+    text-align: center;
+    width: 100%;
+}
+
+#subtitle
+{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#footerlinks
+{
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+    font-size: 10px;
+}
+
+#footerlinks:hover
+{
+    color: rgb(32, 32, 32);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#friendlinks
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 30px;
+}
+
+#chatme
+{
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
 }
