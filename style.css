@@ -65,7 +65,7 @@ li a:hover
 
 #ProShow
 {
-    /* border : 1.5px solid rgb(143, 143, 143); */
+    border : 1.5px solid rgb(143, 143, 143);
     border-radius: 10px;
     width: 300px;
     height: 250px;
@@ -75,14 +75,14 @@ li a:hover
     margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
-    box-shadow: 0px 5px 5px #888888;
+/*     box-shadow: 0px 5px 5px #888888; */
 }
 
 #ProShow:hover
 {
-    /* border: 1.5px solid rgb(32, 32, 32); */
+    border: 1.5px solid rgb(32, 32, 32);
     /* rgb(3, 104, 236); */
-    box-shadow: 0px 10px 10px #636363;
+/*     box-shadow: 0px 10px 10px #636363; */
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
